@@ -46,8 +46,10 @@ x1=[5,15.5]
 y1=[5,15.5]
 plt.scatter(x1,y1,color='red')
 
+plt.savefig('lineplot_01_plot_char.png')
+
 plt.show()
 
-plt.savefig('lineplot_01_plot_char.png')
+
 
 print('*** Program ended ***')
